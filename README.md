@@ -1,7 +1,7 @@
 # 🐍 Meus Estudos de Python: Fundamental 1
 
 Repositório dedicado ao registro da minha evolução no aprendizado de Python, focado em lógica de programação e boas práticas.
-https://wallpapers.com/images/high/meme-profile-picture-2rhxt0ddudotto63.webp
+
 ## 🗺️ Mapa de Conteúdo
 
 Abaixo estão os módulos divididos pelos tópicos da minha trilha de estudos:
