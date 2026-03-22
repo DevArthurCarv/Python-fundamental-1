@@ -4,7 +4,6 @@ I'll create a folder for each topic and link to each
 one in (https://github.com/DevArthurCarv/Python-fundamental-1/blob/main/README.md)
 """
 
-
 # First code
 
 print("Hello World!!!")
