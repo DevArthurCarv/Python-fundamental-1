@@ -1,29 +1,33 @@
-# 🐍 Meus Estudos de Python: Fundamental 1
+# 🐍 Python Studies: Fundamental 1
 
-Repositório dedicado ao registro da minha evolução no aprendizado de Python, focado em lógica de programação e boas práticas.
+This repository is dedicated to documenting my progress in learning Python, focusing on programming logic and best practices.
 
-## 🗺️ Mapa de Conteúdo
+pt-br: Repositório dedicado ao registro da minha evolução no aprendizado de Python, focado em lógica de programação e boas práticas.
 
-Abaixo estão os módulos divididos pelos tópicos da minha trilha de estudos:
+## 🗺️ Content Roadmap
 
-### [📁 Módulo 01 - Fundamentos e Controle de Fluxo](./Modulo-01/)
-Nesta pasta, explorei os pilares iniciais da linguagem:
+Below are the modules divided by the topics of my learning path:
 
-* **Sintaxe Básica:** Estrutura de código e identação.
-* **Variáveis e Tipos:** Manipulação de dados e armazenamento.
-* **Strings:** Trabalhando com textos.
-* **Condicionais:** Lógica de decisão (`if`, `else`, `elif`).
-* **Loops:** Repetições com `for`, uso de `range()` e filtros com `continue`.
+### [📁 Module 01 - Fundamentals and Flow Control](./Modulo-01/)
+In this folder, I explored the initial pillars of the language:
 
-> **Código em destaque:** [`01-intro-loops.py`](./Modulo-01/01-intro-loops.py) — Exercício prático sobre filtragem de números ímpares usando iteração.
+* **Basic Syntax:** Code structure and indentation.
+* **Variables and Types:** Data manipulation and storage.
+* **Strings:** Working with text data.
+* **Conditionals:** Decision logic (`if`, `else`, `elif`).
+* **Loops:** Repetitions with `for`, using `range()` and filtering with `continue`.
+
+> **Featured Code:** [`01-intro-loops.py`](./Modulo-01/01-intro-loops.py) — Practical exercise on filtering odd numbers using iteration.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
-* **Linguagem:** Python 3.x
+## 🛠️ Technologies and Tools
+* **Language:** Python 3.x
 * **IDE:** VS Code
-* **Controle de Versão:** Git / GitHub
-* **Organização:** Notion
+* **Version Control:** Git / GitHub
+* **Project Management:** Notion
 
 ---
-*Estudante de Análise e Desenvolvimento de Sistemas (ADS)*
+*Systems Analysis and Development Student (ADS)* 
+
+---
