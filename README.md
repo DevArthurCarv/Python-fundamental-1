@@ -21,6 +21,38 @@ In this folder, I explored the initial pillars of the language:
 
 ---
 
+#### [4. Data Structures](./Modulo-01/4-data-structures.py)
+Introdução geral às coleções de dados no Python:
+
+* **Collections:** Overview of how Python stores multiple items.
+* **Mutability:** Concepts of ordered and changeable elements.
+---
+
+#### [4.1 Tuples](./Modulo-01/4.1-tuples.py)
+Exploring immutable sequences:
+
+* **Fixed Data:** Using parentheses () for read-only ordered collections.
+* **Data Safety:** When to use tuples instead of lists for consistency.
+
+---
+
+#### [4.2 Dictionaries](./Modulo-01/4.2-dictionaries.py)
+Working with Key-Value pairs:
+
+* **Mapping:** Organizing data using unique keys like a real-world database.
+* **Retrieval:** Efficiently accessing values using their identifiers.
+
+---
+
+#### [4.3 Sets](./Modulo-01/4.3-sets.py)
+Unordered collections with unique elements:
+
+* **Uniqueness:** Automatically removing duplicates from a collection.
+* **Operations:** Set theory in practice (Difference, Union, Intersection).
+
+---
+
+
 ## 🛠️ Technologies and Tools
 * **Language:** Python 3.x
 * **IDE:** VS Code
