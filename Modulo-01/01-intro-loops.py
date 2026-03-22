@@ -1,101 +1,102 @@
-#primeiro código
+"""
+In the next few topics, things will be more organized.
+I'll create a folder for each topic and link to each 
+one in (https://github.com/DevArthurCarv/Python-fundamental-1/blob/main/README.md)
+"""
+
+
+# First code
 
 print("Hello World!!!")
 print(82375639)
 
-#um pouco da sintaxe
+# A bit of syntax
 
-# Este é o comentário de uma unica linha usando '#'
-
-"""
-este é um comentario
-de várias linhas
-"""
-#2. Noções básicas de Python
+# This is a single-line comment using '#'
 
 """
-Inteiros (int)
-Os números inteiros são aqueles que não têm parte decimal.
-Em Python, são representados simplesmente escrevendo
-o número sem aspas nem pontos decimais. Por exemplo:
+This is a 
+multi-line comment
 """
 
-idade = 20
-quantidade = 200
+# 2. Python Basics
 
 """
-Flutuantes (float)
-Os números flutuantes, também conhecidos como números de ponto flutuante, são aqueles que têm uma parte decimal.
-Em Python, são representados utilizando um ponto para separar a parte inteira da parte decimal. Por exemplo:
+Integers (int)
+Integers are numbers that do not have a decimal part.
+In Python, they are represented simply by writing
+the number without quotes or decimal points. For example:
 """
 
-preço = 9.99
-altura = 1.85
+age = 20
+quantity = 200
 
 """
-Cadeias de texto (strings)
-As cadeias de texto, ou simplesmente cadeias, são sequências de caracteres
-encerradas entre aspas simples ('...') ou duplas ("..."). São utilizadas
-para representar texto em Python. Por exemplo:
+Floats (float)
+Floating-point numbers, also known as floats, are those that have a decimal part.
+In Python, they are represented using a dot to separate the integer part from the decimal part. For example:
 """
 
-nome = "Arthur"
-mensagem = "Olá mundo"
+price = 9.99
+height = 1.85
 
-print(f"{nome}")
+"""
+Strings
+Strings are sequences of characters enclosed in 
+single quotes ('...') or double quotes ("..."). 
+They are used to represent text in Python. For example:
+"""
 
-ano = 2028
+name = "Arthur"
+message = "Hello world"
 
-#3. Estruturas de controle
+print(f"{name}")
 
-"""if ano < 2023:
-    print("O ana é menor que 2023")
-elif ano >= 2023 and ano < 60:
-    print("Ano maior ou igual a 2023 e menor que 60")
-elif ano > 2025:
-    print("O ano é maior que 2025")
-elif ano == 2050:
-    print("Ano é igual a 2050")
+year = 2028
+
+# 3. Control Structures
+
+"""if year < 2023:
+    print("The year is less than 2023")
+elif year >= 2023 and year < 60:
+    print("Year is greater than or equal to 2023 and less than 60")
+elif year > 2025:
+    print("The year is greater than 2025")
+elif year == 2050:
+    print("Year is equal to 2050")
 else:
-    print("O ano é 2028")"""
+    print("The year is 2028")"""
 
-#3.1 LOOPS
+# 3.1 LOOPS
 
-#For
+# For
 
-#fruta = "maçã", "banana", "laranja"
+# fruit = "apple", "banana", "orange"
 """
-frutas = ["maçã", "banana", "laranja"]
+fruits = ["apple", "banana", "orange"]
 
-for fruta in frutas:
-    print(fruta)"""
+for fruit in fruits:
+    print(fruit)"""
 
+# WHILE
 
+"""counter = 0
+while counter < 5:
+    print(counter)
+    counter += 1"""
 
-#WHILE
+# Some examples:
 
-"""
-contador = 0
-while contador < 5:
-    print(contador)
-    contador += 1
-"""
-#alguns exemplos:
+"""print("Numbers from 1 to 5 multiplied by 2 using 'for'")
+for number in range(1, 6):
+    print(number * 2)
 
-"""print("Número de 1 a 5 multiplicados por 2 com for")
-for numero in range(1,6):
-    print(numero * 2)
+print("Numbers from 1 to 5 multiplied by 2 using 'while'")
+counter = 1
+while counter <= 5:
+    print(counter * 2)
+    counter += 1"""
 
-print("Número de 1 a 5 multiplicados por 2 com while")
-contador = 1
-while contador <= 5:
-    print(contador * 2)
-    contador +=1"""
-
-
-"""
 for i in range(10):
-    if i % 2 != 0:
-        continue
-    print(i)
-"""
+    if i % 2 == 0:
+        print(i)
