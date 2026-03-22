@@ -71,11 +71,11 @@ else:
 # For
 
 # fruit = "apple", "banana", "orange"
-"""
-fruits = ["apple", "banana", "orange"]
 
-for fruit in fruits:
-    print(fruit)"""
+"""fruits = ["apple", "banana", "orange"]
+
+for fruits in fruits:
+    print(fruits)"""
 
 # WHILE
 
